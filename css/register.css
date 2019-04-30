@@ -1,0 +1,6 @@
+.register{
+
+	background: rgb(25,25,230);
+	background: linear-gradient(270deg, rgba(25,25,230,1) 100%, rgba(7,9,60,1) 100%);
+	margin-top: 55px;
+}

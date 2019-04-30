@@ -1,0 +1,260 @@
+/* ###############$$$$$$$$$$$$$$$$$$$$$$$$$   index page $$$$$$$$$$$$$$$$$$$$$######################*/
+/* background image or navbar*/
+.bgimg
+{
+	
+	background-size:100% 100%;
+	background-attachment: fixed;
+	width: 100%;	
+	height: 760px; 
+	display: block;
+
+
+}
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+
+#intro {
+
+  width: 100%;
+  position: relative;
+  background: url("../img/intro-bg.png") center bottom no-repeat;
+
+  background-size: cover;
+  padding: 50px 0 30px 0;
+}
+
+#intro .intro-img {
+  width: 50%;
+  height: 50%;
+
+  float: left;
+}
+
+
+/*--------------------------------------------------------------
+# END Intro Section
+--------------------------------------------------------------*/
+
+
+
+/* login form  design */
+
+
+
+/* stop login form desing*/
+
+
+
+/* Team Section
+--------------------------------*/
+section{
+	
+}
+.our-team{
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover{
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.our-team .pic{
+    overflow: hidden;
+    position: relative;
+}
+.our-team .pic:before,
+.our-team .pic:after{
+    content: "";
+    width: 200%;
+    height: 80%;
+    background: rgba(63, 93, 191,0.8);
+    position: absolute;
+    top: -100%;
+    left: -4%;
+    transform: rotate(45deg);
+    transition: all 0.5s ease 0s;
+}
+.our-team .pic:after{
+    background: rgba(138, 247, 104,0.8);
+    top: auto;
+    left: auto;
+    bottom: -100%;
+    right: -4%;
+}
+.our-team:hover .pic:before{ top: 0; }
+.our-team:hover .pic:after{ bottom: 0; }
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+}
+.our-team .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+
+    bottom: 45%;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.5s ease 0.3s;
+}
+.our-team:hover .social{ opacity: 1; }
+.our-team .social li{ display: inline-block; }
+.our-team .social li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.our-team .social li a:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #db162f;
+    border-radius: 0 20px 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+.our-team .social li a:hover:after{ transform: rotate(180deg); }
+.our-team .team-content{ padding: 20px; }
+.our-team .title{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #047168;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+.our-team .post{
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #707070;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+
+/*=================>> END TEAM STYLE <<=====================*/
+
+
+/*#### login control in display ##################################*/
+.logincontrol
+{
+	display: block;
+	margin: 25px 50px 75px 70px;
+}
+
+/*footer  style*/
+.footer button 
+{
+	margin-top: 3px;
+	background-color:#000;
+}
+.footer{
+	
+	background: rgb(25,25,230);
+	background: linear-gradient(270deg, rgba(25,25,230,1) 100%, rgba(7,9,60,1) 100%);
+	padding: 20px;
+
+}
+.footer a{
+	color:white;
+	font-size:15px;
+}
+.footer a:hover{
+  color :black;
+  font-size:15px;
+}
+.footer p{
+	color: black;
+	
+	height: 10px;
+	font-size:25px;
+
+}
+.footer-title{
+	color: black;
+	 font-weight: bold;
+}
+footer{
+	padding: 100px;
+	height: 10px;
+}
+
+/* stop footer style*/
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+/* ###### end cart design ############*/
+/* ############# button design ###########*/
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+/* ########### stop design ########*/
+/* responsive */
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+@media(min-width: 575px) and(max-width: 767px)
+{
+
+}
+@media(min-width: 460px) and(max-width: 574px)
+{
+
+}
+@media(max-width: 479px){
+	.bgimg
+		{
+		background-image: url('../images/background.jpg');
+		background-size:100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 660px; 
+	}
+	
+
+}
+
+
+}
+
+/*###############################$$$$$$$$$$$$$$$$$$$$$$$$       STOP Indes $$$$$$$$$$$$$$###############*/
+
